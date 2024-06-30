@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="custom_footer" inherit_id="website.layout" name="Custom Footer">
+        <xpath expr="//footer" position="replace">
+            <section class="explore-cities">
+                <div class="container">
+                    <div class="text-center py-5">
+                        <h2 class="h1">Explore Cities</h2>
+                        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
+                            industries for
+                            <br/>
+                                           previewing layouts and visual mockups.
+                        </p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="d-flex align-items-center">
+                                <div class="img-container mr-3 rounded">
+                                    <img class="country-image rounded" src="/theme_yourhome/static/src/img/city1.png"/>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0">Country Name</h5>
+                                    <div>City name</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="d-flex align-items-center">
+                                <div class="img-container mr-3 rounded">
+                                    <img class="country-image rounded" src="/theme_yourhome/static/src/img/city2.png"/>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0">Country Name</h5>
+                                    <div>City name</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="d-flex align-items-center">
+                                <div class="img-container mr-3 rounded">
+                                    <img class="country-image rounded" src="/theme_yourhome/static/src/img/city3.png"/>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0">Country Name</h5>
+                                    <div>City name</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="d-flex align-items-center">
+                                <div class="img-container mr-3 rounded">
+                                    <img class="country-image rounded" src="/theme_yourhome/static/src/img/city4.png"/>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0">Country Name</h5>
+                                    <div>City name</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-lg-3">
+                            <div class="d-flex align-items-center">
+                                <div class="img-container mr-3 rounded">
+                                    <img class="country-image rounded" src="/theme_yourhome/static/src/img/city5.png"/>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0">Country Name</h5>
+                                    <div>City name</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="d-flex align-items-center">
+                                <div class="img-container mr-3 rounded">
+                                    <img class="country-image rounded" src="/theme_yourhome/static/src/img/city6.png"/>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0">Country Name</h5>
+                                    <div>City name</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="d-flex align-items-center">
+                                <div class="img-container mr-3 rounded">
+                                    <img class="country-image rounded" src="/theme_yourhome/static/src/img/city7.png"/>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0">Country Name</h5>
+                                    <div>City name</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="d-flex align-items-center">
+                                <div class="img-container mr-3 rounded">
+                                    <img class="country-image rounded" src="/theme_yourhome/static/src/img/city8.png"/>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0">Country Name</h5>
+                                    <div>City name</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <div class="container py-5 border-top">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <img class="footer-logo" style="height:50px; widht:auto;"
+                                 src="/hm_school_website/static/src/img/icon.png"/>
+                            <p class="py-3">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+
+                            <div class="s_share text-left no_icon_color" data-snippet="s_share"
+                                 data-name="Social Media">
+                                <h5 class="s_share_title d-none">Follow us</h5>
+                                <a href="/website/social/facebook" class="s_share_facebook" target="_blank">
+                                    <i class="fa fa-facebook m-1 rounded-circle border"/>
+                                </a>
+                                <a href="/website/social/twitter" class="s_share_twitter" target="_blank">
+                                    <i class="fa fa-twitter m-1 rounded-circle border"/>
+                                </a>
+                                <a href="/website/social/linkedin" class="s_share_linkedin" target="_blank">
+                                    <i class="fa fa-linkedin m-1 rounded-circle border"/>
+                                </a>
+                                <a href="/website/social/instagram" class="s_share_instagram" target="_blank">
+                                    <i class="fa fa-instagram m-1 rounded-circle border"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <h5>Quick Links</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Products</a>
+                                </li>
+                                <li>
+                                    <a href="#">Services</a>
+                                </li>
+                                <li>
+                                    <a href="#">Legal</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2">
+                            <h5>Top Locations</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#">Location 1</a>
+                                </li>
+                                <li>
+                                    <a href="#">Location 2</a>
+                                </li>
+                                <li>
+                                    <a href="#">Location 3</a>
+                                </li>
+                                <li>
+                                    <a href="#">Location 4</a>
+                                </li>
+                                <li>
+                                    <a href="#">Location 5</a>
+                                </li>
+                                <li>
+                                    <a href="#">Location 6</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <h5>Newsletter</h5>
+                            <form>
+                                <div class="input-group mb-3">
+                                    <input type="email" class="form-control" placeholder="Recipient's username"
+                                           aria-label="Your email" aria-describedby="button-addon2"/>
+                                    <div class="input-group-append">
+                                        <button class="btn btn-primary" type="button" id="button-addon2">
+                                            Submit
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                            <p class="m-0">Contact Us</p>
+                            <div class="h2 m-0">
+                                <a href="tel:01234567890">01234567890</a>
+                            </div>
+                            <p>
+                                <a href="mailto:info@youremail.com" class="text-dark">info@youremail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </xpath>
+    </template>
+</odoo>
