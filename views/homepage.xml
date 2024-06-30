@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="custom_homepage" inherit_id="website.homepage" name="Home">
+        <xpath expr="//t[@t-call='website.layout']" position="replace">
+            <t t-call="website.layout">
+                <t t-set="pageName" t-value="'homepage'"/>
+                <div class="oe_structure"/>
+                <!-- awal-->
+                <section class="s_cover parallax s_parallax_is_fixed bg-black-50 pt96 pb96"
+                         data-scroll-background-ratio="1">
+                    <span class="s_parallax_bg oe_img_bg"
+                          style="background-image: url('/hm_school_website/static/src/img/assets/main-slider-02.jpg'); background-position: 50% 0;"/>
+                    <div class="o_we_bg_filter bg-black-50"/>
+                    <div class="container s_allow_columns">
+                        <h1 style="text-align: center;">
+                            <font style="font-size: 62px; font-weight: bold;">Haschmicro School</font>
+                        </h1>
+                        <p class="lead" style="text-align: center;">
+                            Hashmicro berkomitmen untuk memberikan solusi terbaik bagi pendidikan yang lebih baik.
+                            <br/>
+                            Dengan School Management, kami membantu sekolah Anda untuk lebih efisien, transparan, dan efektif dalam mencapai tujuan pendidikan.
+                        </p>
+                        <p style="text-align: center;">
+                            <a t-att-href="cta_btn_href" class="btn btn-primary mb-2">
+                                <t t-esc="cta_btn_text">Contact us</t>
+                            </a>
+                        </p>
+                    </div>
+                </section>
+
+                <section class="new-properties o_cc5 mt-5">
+                    <div class="container py-5">
+                        <div class="d-flex align-items-center">
+                            <h2 class="h1 m-0">Online Course</h2>
+                            <a href="#" class="ml-auto btn btn-primary mb-2 mt-3 rounded-circle font-weight-medium">View
+                                All Course
+                            </a>
+                        </div>
+
+                        <div class="row mt-5">
+                            <div class="col-lg-3">
+                                <div class="property-img-container rounded">
+                                    <img class="object-fit rounded" src="/hm_school_website/static/src/img/assets/courses-02.jpg"/>
+                                </div>
+                                <div class="mt-2">
+                                    <span class="text-muted d-block">Odoo Dev</span>
+                                    <span class="text-primary d-block h3 m-0">GRATIS</span>
+                                    <span class="text-light d-block">Online</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="property-img-container rounded">
+                                    <img class="object-fit rounded" src="/hm_school_website/static/src/img/assets/courses-01.jpg"/>
+                                </div>
+                                <div class="mt-2">
+                                    <span class="text-muted d-block">Javascript</span>
+                                    <span class="text-primary d-block h3 m-0">GRATIS</span>
+                                    <span class="text-light d-block">Online</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="property-img-container rounded">
+                                    <img class="object-fit rounded" src="/hm_school_website/static/src/img/assets/courses-04.jpg"/>
+                                </div>
+                                <div class="mt-2">
+                                    <span class="text-muted d-block">Python</span>
+                                    <span class="text-primary d-block h3 m-0">GRATIS</span>
+                                    <span class="text-light d-block">Online</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="property-img-container rounded">
+                                    <img class="object-fit rounded" src="/hm_school_website/static/src/img/assets/courses-03.jpg"/>
+                                </div>
+                                <div class="mt-2">
+                                    <span class="text-muted d-block">Apartment</span>
+                                    <span class="text-primary d-block h3 m-0">GRATIS</span>
+                                    <span class="text-light d-block">Online</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="property-agents">
+                    <div class="container">
+                        <div class="text-center py-5">
+                            <h2 class="h1">Property Agents</h2>
+                            <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
+                                industries for
+                                <br/>
+                                previewing layouts and visual mockups.
+                            </p>
+                        </div>
+
+                        <div class="d-flex justify-content-center pb-5">
+                            <div class="mx-5 text-center">
+                                <div class="agent-img-container rounded">
+                                    <img class="object-fit rounded" src="/hm_school_website/static/src/img/assets/courses-05.jpg"/>
+                                </div>
+                                <h5 class="mb-0 mt-3">Agent Name</h5>
+                                <div>Company name</div>
+                            </div>
+                            <div class="mx-5 text-center">
+                                <div class="agent-img-container rounded">
+                                    <img class="object-fit rounded" src="/hm_school_website/static/src/img/assets/choose-us-image-01.png.jpg"/>
+                                </div>
+                                <h5 class="mb-0 mt-3">Agent Name</h5>
+                                <div>Company name</div>
+                            </div>
+                            <div class="mx-5 text-center">
+                                <div class="agent-img-container rounded">
+                                    <img class="object-fit rounded" src="/hm_school_website/static/src/img/assets/choose-us-image-02.png"/>
+                                </div>
+                                <h5 class="mb-0 mt-3">Agent Name</h5>
+                                <div>Company name</div>
+                            </div>
+                            <div class="mx-5 text-center">
+                                <div class="agent-img-container rounded">
+                                    <img class="object-fit rounded" src="/hm_school_website/static/src/img/assets/choose-us-image-03.png"/>
+                                </div>
+                                <h5 class="mb-0 mt-3">Agent Name</h5>
+                                <div>Company name</div>
+                            </div>
+                            <div class="mx-5 text-center">
+                                <div class="agent-img-container rounded">
+                                    <img class="object-fit rounded" src="/hm_school_website/static/src/img/assets/agent5.png"/>
+                                </div>
+                                <h5 class="mb-0 mt-3">Agent Name</h5>
+                                <div>Company name</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="s_cover parallax bg-black-50 pt96 pb96" data-scroll-background-ratio="1">
+                    <span class="s_parallax_bg oe_img_bg"
+                          style="background-image: url('/hm_school_website/static/src/img/contact-bg.jpg');"/>
+                    <div class="container s_allow_columns">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h2 class="h1">We help you find your<br class="d-none d-lg-block"/>new home
+                                </h2>
+                                <p class="pr-5">
+                                    Lorem ipsum is placeholder text commonly used in the graphic,
+                                    print, and publishing industries for previewing layouts and
+                                    visual mockups.
+                                </p>
+                                <p>
+                                    <a href="" class="btn btn-primary mb-2 mt-3 rounded-circle px-5 font-weight-medium">
+                                        Learn More
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="col-lg-6 o_cc1 p-5 rounded">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="name">Your name</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Eg. Alfer Jay"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Your email</label>
+                                        <input type="email" class="form-control" id="email"
+                                               placeholder="Eg. youremail@ajfscript.com"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="number">Your number</label>
+                                        <input type="text" class="form-control" id="number"
+                                               placeholder="Eg. 0123456789"/>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary w-100 mt-3 font-weight-medium">Submit
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- akhir-->
+            </t>
+        </xpath>
+    </template>
+</odoo>
